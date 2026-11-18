@@ -27,5 +27,9 @@ public class JavaQuiz {
         // Pregunta 4 (Integrante B)
         System.out.println("4. ¿Qué método es el punto de entrada de un programa Java?\n a) start()\n b) main()\n c) init()");
         if (scanner.nextLine().equalsIgnoreCase("b")) aciertos++;
+
+        // Pregunta 5 (Integrante B)
+        System.out.println("5. ¿String es un tipo primitivo?\n a) Sí\n b) No");
+        if (scanner.nextLine().equalsIgnoreCase("b")) aciertos++;
     }
 }
