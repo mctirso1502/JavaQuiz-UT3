@@ -31,5 +31,12 @@ public class JavaQuiz {
         // Pregunta 5 (Integrante B)
         System.out.println("5. ¿String es un tipo primitivo?\n a) Sí\n b) No");
         if (scanner.nextLine().equalsIgnoreCase("b")) aciertos++;
+
+        // Pregunta 6 (Integrante B)
+        System.out.println("6. ¿Qué paquete se importa automáticamente en Java?\n a) java.util\n b) java.io\n c) java.lang");
+        if (scanner.nextLine().equalsIgnoreCase("c")) aciertos++;
+
+        System.out.println("Has acertado " + aciertos + " preguntas.");
+        scanner.close();
     }
 }
